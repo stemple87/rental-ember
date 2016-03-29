@@ -12,6 +12,18 @@ export default Ember.Route.extend({
       this.transitionTo('index');
     },
 
+    update(rental, params) {
+      //lets fields remain unchanged on update
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          rental.set(key,params[key]);
+        }
+      });
+      //
+      rental.save();
+      this.transitionTo('index');
+    },
+
     destroyRental(rental) {
       rental.destroyRecord();
       this.transitionTo('index');
