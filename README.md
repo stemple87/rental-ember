@@ -1,7 +1,29 @@
-# Super-rentals
+# _Rentals_
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _Add rentals to a page_
+
+#### By _**Simon Temple**_
+
+## Description
+
+_This is a site that allows you to add, edit, and delete rentals on a page. Follows allong with coursework_
+
+## Known Bugs
+
+_None known_
+
+## Support and contact details
+
+_You can contact me at simonctemple@live.com or at my github profile https://github.com/stemple87_
+
+## Technologies Used
+
+_This app is made using Ember and Node.js_
+
+### License
+
+
+Copyright (c) 2015 **_Simon Temple_**
 
 ## Prerequisites
 
